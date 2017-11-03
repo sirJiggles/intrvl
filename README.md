@@ -18,8 +18,6 @@ Intrvl has a clean interface with the user in mind, numbers can be seen from a d
 The watch app comes with the ability to lock the screen and unlock using the digital crown for sports where you may accidently press an undesired button.
 
 # Contributions
-Feel free to edit, make the app better and make PR's
-
-* Don't be a dick and try to re-publish the app, I assure you it doesn't make enough money to warrent the hasle I will give you.
+* Feel free to edit, make the app better and make PR's. I am easy going, there is no required 'flow' if you want to improve somethiing make a PR if it's groovy I will merge.
 * Email me with suggestions if you have ideas but lack the skillz to make it happen, I am welcome to any change requests.
 
