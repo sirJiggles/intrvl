@@ -1,0 +1,1626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032C708F021324B4614236DE /* Pods_ruckusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FCC1C1AE790D9D8F15D4EB /* Pods_ruckusUITests.framework */; };
+		26F1FDC63D07996C827882A4 /* Pods_ruckusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542C055B021A21A38A4A854D /* Pods_ruckusTests.framework */; };
+		61287E1192476E3E86E4C00A /* Pods_ruckus_watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9041E651361575E7FD10EE12 /* Pods_ruckus_watch.framework */; };
+		7F01E3251E56617E0093622A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F01E3241E56617E0093622A /* SettingsViewController.swift */; };
+		7F04E25A1E563D0F005D94C5 /* SelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F04E2591E563D0F005D94C5 /* SelectCell.swift */; };
+		7F0F218D1EF7007E006AF4E7 /* SportModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F218C1EF7007E006AF4E7 /* SportModelTests.swift */; };
+		7F0F21911EF70370006AF4E7 /* StringCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F21901EF70370006AF4E7 /* StringCollectionTests.swift */; };
+		7F0F21941EF70541006AF4E7 /* IntervalTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F21931EF70541006AF4E7 /* IntervalTimerTests.swift */; };
+		7F13D2B31EFFA9A70095A92D /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D9FDA1EE4434D0049ADA8 /* Flags.swift */; };
+		7F19F1961E6E0CF100D5CFC3 /* IntervalTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19F1951E6E0CF100D5CFC3 /* IntervalTimer.swift */; };
+		7F1BD8C61E64CA8100C9B9A0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1BD8C41E64CA8100C9B9A0 /* Interface.storyboard */; };
+		7F1BD8C81E64CA8100C9B9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1BD8C71E64CA8100C9B9A0 /* Assets.xcassets */; };
+		7F1BD8CF1E64CA8100C9B9A0 /* ruckus.watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7F1BD8CE1E64CA8100C9B9A0 /* ruckus.watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7F1BD8D61E64CA8100C9B9A0 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1BD8D51E64CA8100C9B9A0 /* TimerController.swift */; };
+		7F1BD8D81E64CA8100C9B9A0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1BD8D71E64CA8100C9B9A0 /* ExtensionDelegate.swift */; };
+		7F1BD8DC1E64CA8100C9B9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1BD8DB1E64CA8100C9B9A0 /* Assets.xcassets */; };
+		7F1BD8E01E64CA8100C9B9A0 /* ruckus.watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7F1BD8C21E64CA8100C9B9A0 /* ruckus.watch.app */; };
+		7F27D2321EB7CC94007829C4 /* SliderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F27D2311EB7CC94007829C4 /* SliderController.swift */; };
+		7F2CBFA11ECA431C0075412A /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2CBFA01ECA431C0075412A /* Sport.swift */; };
+		7F2FFF7D1EF6ADC200CBAFAC /* SettingsModalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FFF7C1EF6ADC200CBAFAC /* SettingsModalTests.swift */; };
+		7F2FFF7F1EF6B5C000CBAFAC /* SettingsScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FFF7E1EF6B5C000CBAFAC /* SettingsScreenUITests.swift */; };
+		7F30C6361E8FDA4D004D90FB /* WorkoutStoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30C6351E8FDA4D004D90FB /* WorkoutStoreHelper.swift */; };
+		7F30C63A1E8FE009004D90FB /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F30C6381E8FDFEE004D90FB /* HealthKit.framework */; };
+		7F320A971EABEDD5006089D1 /* ControllerNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F320A961EABEDD5006089D1 /* ControllerNames.swift */; };
+		7F320A9A1EABF095006089D1 /* ControllerActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F320A991EABF095006089D1 /* ControllerActions.swift */; };
+		7F340E981EF719B000AE3DEB /* XCUIElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F340E961EF719AB00AE3DEB /* XCUIElement.swift */; };
+		7F35D0321ECCED5A007EAE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1BD8C71E64CA8100C9B9A0 /* Assets.xcassets */; };
+		7F3DC9161E5D5D7400AA6190 /* ScrollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3DC9151E5D5D7400AA6190 /* ScrollCell.swift */; };
+		7F4D9FDB1EE4434D0049ADA8 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D9FDA1EE4434D0049ADA8 /* Flags.swift */; };
+		7F4D9FE01EE44D920049ADA8 /* pause.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7F4D9FDC1EE44D920049ADA8 /* pause.wav */; };
+		7F4D9FE11EE44D920049ADA8 /* notify.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7F4D9FDD1EE44D920049ADA8 /* notify.wav */; };
+		7F4D9FE21EE44D920049ADA8 /* finished.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7F4D9FDE1EE44D920049ADA8 /* finished.wav */; };
+		7F4D9FE31EE44D920049ADA8 /* start.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7F4D9FDF1EE44D920049ADA8 /* start.wav */; };
+		7F4D9FE61EE45FC20049ADA8 /* WorkoutStoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30C6351E8FDA4D004D90FB /* WorkoutStoreHelper.swift */; };
+		7F53A1CB1E90F1F80004C358 /* IntervalTimerSettingsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53A1CA1E90F1F80004C358 /* IntervalTimerSettingsHelper.swift */; };
+		7F5AB7361EB7D58100A1537B /* IntervalTimerSettingsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53A1CA1E90F1F80004C358 /* IntervalTimerSettingsHelper.swift */; };
+		7F5AE9C21E6F551F005B4290 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5AE9C11E6F551F005B4290 /* TimerViewController.swift */; };
+		7F5B0A631EE4A22E00BA7358 /* GoProViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B0A621EE4A22E00BA7358 /* GoProViewController.swift */; };
+		7F5B0A651EE4B6D800BA7358 /* PurchasedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B0A641EE4B6D800BA7358 /* PurchasedState.swift */; };
+		7F6127011E50B9BF00ED1544 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6127001E50B9BF00ED1544 /* Settings.swift */; };
+		7F6127061E50BB4800ED1544 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F6127051E50BB4800ED1544 /* Settings.plist */; };
+		7F6127081E50BF1500ED1544 /* PlistHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6127071E50BF1500ED1544 /* PlistHelper.swift */; };
+		7F73C62C1EFC76D4003423E9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6127001E50B9BF00ED1544 /* Settings.swift */; };
+		7F73C62D1EFC7711003423E9 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2CBFA01ECA431C0075412A /* Sport.swift */; };
+		7F73C62E1EFC7785003423E9 /* PlistHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6127071E50BF1500ED1544 /* PlistHelper.swift */; };
+		7F73C62F1EFC7787003423E9 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDDE35F1E54E9DD000E36F3 /* UserDefaultsHelper.swift */; };
+		7F73C6301EFC779C003423E9 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA5CE571E80684000EF3248 /* StringExtension.swift */; };
+		7F76938D1EE2FE230036DED7 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F76938C1EE2FE230036DED7 /* SoundPlayer.swift */; };
+		7F76939D1EE376490036DED7 /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F76939C1EE376490036DED7 /* CreditsViewController.swift */; };
+		7F76939F1EE37C950036DED7 /* CreditsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F76939E1EE37C950036DED7 /* CreditsCell.swift */; };
+		7F7693A11EE37FF20036DED7 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7693A01EE37FF20036DED7 /* ButtonCell.swift */; };
+		7F83E53B1E53AB530019A31F /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F83E53A1E53AB530019A31F /* LoadingScreenViewController.swift */; };
+		7F8619171E60CEDF005236C2 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8619161E60CEDF005236C2 /* UIColorExtension.swift */; };
+		7F8F6B241EAD46A300A2DD2B /* UnlockingInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F6B231EAD46A300A2DD2B /* UnlockingInterfaceController.swift */; };
+		7F917ACF1F04487600120FC2 /* PurchasedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B0A641EE4B6D800BA7358 /* PurchasedState.swift */; };
+		7F95A9941E8FEBCD0057D8AB /* NotificationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95A9931E8FEBCD0057D8AB /* NotificationKeys.swift */; };
+		7F95A9991E9016600057D8AB /* WatchNotificationBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95A9981E9016600057D8AB /* WatchNotificationBridge.swift */; };
+		7F95A99A1E901D310057D8AB /* NotificationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95A9931E8FEBCD0057D8AB /* NotificationKeys.swift */; };
+		7F95A99D1E90202E0057D8AB /* AppNotificationBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95A99C1E90202E0057D8AB /* AppNotificationBridge.swift */; };
+		7F95A99E1E9049A10057D8AB /* IntervalTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19F1951E6E0CF100D5CFC3 /* IntervalTimer.swift */; };
+		7F95A99F1E904E450057D8AB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8619161E60CEDF005236C2 /* UIColorExtension.swift */; };
+		7F95A9A11E9050C50057D8AB /* PlistHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6127071E50BF1500ED1544 /* PlistHelper.swift */; };
+		7F95A9A21E9050C80057D8AB /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDDE35F1E54E9DD000E36F3 /* UserDefaultsHelper.swift */; };
+		7F95A9A31E9050E00057D8AB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA5CE571E80684000EF3248 /* StringExtension.swift */; };
+		7F981B981EC8F2CA003D01F2 /* FinishedInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F981B971EC8F2CA003D01F2 /* FinishedInterfaceController.swift */; };
+		7FA5CE581E80684000EF3248 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA5CE571E80684000EF3248 /* StringExtension.swift */; };
+		7FAC98CB1E745F83003848DE /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC98CA1E745F83003848DE /* DoubleExtension.swift */; };
+		7FB247F51ED230F500267498 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6127001E50B9BF00ED1544 /* Settings.swift */; };
+		7FB247FB1ED236E700267498 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB247FA1ED236E700267498 /* WorkoutSession.swift */; };
+		7FB247FD1ED2420700267498 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB247FC1ED2420700267498 /* WorkoutSession.swift */; };
+		7FB247FE1ED24AB000267498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1BD8C71E64CA8100C9B9A0 /* Assets.xcassets */; };
+		7FB358041E4294EA00EF9BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB358031E4294EA00EF9BD2 /* AppDelegate.swift */; };
+		7FB3580B1E4294EA00EF9BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB358091E4294EA00EF9BD2 /* Main.storyboard */; };
+		7FB3580D1E4294EA00EF9BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB3580C1E4294EA00EF9BD2 /* Assets.xcassets */; };
+		7FB358101E4294EA00EF9BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB3580E1E4294EA00EF9BD2 /* LaunchScreen.storyboard */; };
+		7FBC67A61E5B88D500FBEB3B /* DifficultyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC67A51E5B88D500FBEB3B /* DifficultyCell.swift */; };
+		7FC378A41EB2869A003DA72C /* SettingsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC378A31EB2869A003DA72C /* SettingsInterfaceController.swift */; };
+		7FC378A61EB288EF003DA72C /* PickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC378A51EB288EF003DA72C /* PickerController.swift */; };
+		7FC575D81EED5D17006DAD3E /* Reachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC575D71EED5D17006DAD3E /* Reachable.swift */; };
+		7FC575DA1EEDDC57006DAD3E /* SelectCellTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC575D91EEDDC57006DAD3E /* SelectCellTime.swift */; };
+		7FC5AD371EAB7E8E00F3382A /* ControlsInterfaceControllerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5AD361EAB7E8E00F3382A /* ControlsInterfaceControllerController.swift */; };
+		7FC7C2A21E50FEED007579A0 /* ToggleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC7C2A11E50FEED007579A0 /* ToggleCell.swift */; };
+		7FC85F4E1ECF80150014F97C /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2CBFA01ECA431C0075412A /* Sport.swift */; };
+		7FC85F501ECF80CE0014F97C /* CurrentActivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC85F4F1ECF80CE0014F97C /* CurrentActivityHelper.swift */; };
+		7FC85F511ECF871B0014F97C /* CurrentActivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC85F4F1ECF80CE0014F97C /* CurrentActivityHelper.swift */; };
+		7FC9AAC61EDB1B6C002E2085 /* AdIdents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9AAC51EDB1B6C002E2085 /* AdIdents.swift */; };
+		7FCA39E51E8AE8D500F53C61 /* WorkoutFinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCA39E41E8AE8D500F53C61 /* WorkoutFinishedViewController.swift */; };
+		7FCA39E81E8AEA8600F53C61 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCA39E71E8AEA8600F53C61 /* HealthKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7FDDE3601E54E9DD000E36F3 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDDE35F1E54E9DD000E36F3 /* UserDefaultsHelper.swift */; };
+		7FEDF1371EB751E000B63539 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F6127051E50BB4800ED1544 /* Settings.plist */; };
+		7FEDF1391EB773C000B63539 /* ToggleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEDF1381EB773C000B63539 /* ToggleController.swift */; };
+		8903653757D050A61DFB8258 /* Pods_ruckus_watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E039DED56B7B1A40D8C19A30 /* Pods_ruckus_watch_Extension.framework */; };
+		D878AC4CBB31D959F07FA576 /* Pods_ruckus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C79FF37A56D8B1AE865D9A8 /* Pods_ruckus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F1BD8D01E64CA8100C9B9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB357F81E4294EA00EF9BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F1BD8CD1E64CA8100C9B9A0;
+			remoteInfo = "ruckus.watch Extension";
+		};
+		7F1BD8DE1E64CA8100C9B9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB357F81E4294EA00EF9BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F1BD8C11E64CA8100C9B9A0;
+			remoteInfo = ruckus.watch;
+		};
+		7FB358171E4294EA00EF9BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB357F81E4294EA00EF9BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB357FF1E4294EA00EF9BD2;
+			remoteInfo = ruckus;
+		};
+		7FB358221E4294EA00EF9BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB357F81E4294EA00EF9BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB357FF1E4294EA00EF9BD2;
+			remoteInfo = ruckus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F1BD8E61E64CA8100C9B9A0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7F1BD8CF1E64CA8100C9B9A0 /* ruckus.watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1BD8E81E64CA8100C9B9A0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7F1BD8E01E64CA8100C9B9A0 /* ruckus.watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		003BC91500BC3340F2D85331 /* Pods-ruckusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ruckusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ruckusUITests/Pods-ruckusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		162441CFF042648F83D60C5B /* Pods-ruckus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ruckus.release.xcconfig"; path = "Pods/Target Support Files/Pods-ruckus/Pods-ruckus.release.xcconfig"; sourceTree = "<group>"; };
+		2F07BDEF3A75AB1B98815900 /* Pods-ruckus.watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ruckus.watch.release.xcconfig"; path = "Pods/Target Support Files/Pods-ruckus.watch/Pods-ruckus.watch.release.xcconfig"; sourceTree = "<group>"; };
+		341EC0AFE7179ED763894CCD /* Pods-ruckusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ruckusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ruckusTests/Pods-ruckusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		542C055B021A21A38A4A854D /* Pods_ruckusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ruckusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		597B809F841E7FEAAB863A9A /* Pods-ruckus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ruckus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ruckus/Pods-ruckus.debug.xcconfig"; sourceTree = "<group>"; };
+		5C79FF37A56D8B1AE865D9A8 /* Pods_ruckus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ruckus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6954B1FC44CD2BAF9EB720B9 /* Pods-ruckusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ruckusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ruckusUITests/Pods-ruckusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78E14FC63C911EA2AD8AFC4D /* Pods-ruckusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ruckusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ruckusTests/Pods-ruckusTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F01E3241E56617E0093622A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7F04E2591E563D0F005D94C5 /* SelectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCell.swift; sourceTree = "<group>"; };
+		7F0F218C1EF7007E006AF4E7 /* SportModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportModelTests.swift; sourceTree = "<group>"; };
+		7F0F21901EF70370006AF4E7 /* StringCollectionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCollectionTests.swift; sourceTree = "<group>"; };
+		7F0F21931EF70541006AF4E7 /* IntervalTimerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalTimerTests.swift; sourceTree = "<group>"; };
+		7F19F1951E6E0CF100D5CFC3 /* IntervalTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntervalTimer.swift; path = ruckus/IntervalTimer.swift; sourceTree = "<group>"; };
+		7F1BD8C21E64CA8100C9B9A0 /* ruckus.watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ruckus.watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1BD8C51E64CA8100C9B9A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7F1BD8C71E64CA8100C9B9A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F1BD8C91E64CA8100C9B9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1BD8CE1E64CA8100C9B9A0 /* ruckus.watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ruckus.watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1BD8D41E64CA8100C9B9A0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7F1BD8D51E64CA8100C9B9A0 /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
+		7F1BD8D71E64CA8100C9B9A0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		7F1BD8DB1E64CA8100C9B9A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F1BD8DD1E64CA8100C9B9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F27D2311EB7CC94007829C4 /* SliderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderController.swift; sourceTree = "<group>"; };
+		7F2CBFA01ECA431C0075412A /* Sport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sport.swift; path = "ruckus.watch Extension/Sport.swift"; sourceTree = SOURCE_ROOT; };
+		7F2FFF7C1EF6ADC200CBAFAC /* SettingsModalTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsModalTests.swift; sourceTree = "<group>"; };
+		7F2FFF7E1EF6B5C000CBAFAC /* SettingsScreenUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsScreenUITests.swift; sourceTree = "<group>"; };
+		7F30C6351E8FDA4D004D90FB /* WorkoutStoreHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutStoreHelper.swift; path = "ruckus.watch Extension/WorkoutStoreHelper.swift"; sourceTree = "<group>"; };
+		7F30C6381E8FDFEE004D90FB /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.2.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F320A961EABEDD5006089D1 /* ControllerNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerNames.swift; sourceTree = "<group>"; };
+		7F320A991EABF095006089D1 /* ControllerActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerActions.swift; sourceTree = "<group>"; };
+		7F340E961EF719AB00AE3DEB /* XCUIElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCUIElement.swift; sourceTree = "<group>"; };
+		7F3DC9151E5D5D7400AA6190 /* ScrollCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollCell.swift; sourceTree = "<group>"; };
+		7F4D9FDA1EE4434D0049ADA8 /* Flags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
+		7F4D9FDC1EE44D920049ADA8 /* pause.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pause.wav; sourceTree = "<group>"; };
+		7F4D9FDD1EE44D920049ADA8 /* notify.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notify.wav; sourceTree = "<group>"; };
+		7F4D9FDE1EE44D920049ADA8 /* finished.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = finished.wav; sourceTree = "<group>"; };
+		7F4D9FDF1EE44D920049ADA8 /* start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = start.wav; sourceTree = "<group>"; };
+		7F53A1CA1E90F1F80004C358 /* IntervalTimerSettingsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntervalTimerSettingsHelper.swift; path = ruckus/IntervalTimerSettingsHelper.swift; sourceTree = "<group>"; };
+		7F5AE9C11E6F551F005B4290 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		7F5B0A621EE4A22E00BA7358 /* GoProViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoProViewController.swift; sourceTree = "<group>"; };
+		7F5B0A641EE4B6D800BA7358 /* PurchasedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasedState.swift; sourceTree = "<group>"; };
+		7F6127001E50B9BF00ED1544 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = ruckus/Settings.swift; sourceTree = "<group>"; };
+		7F6127051E50BB4800ED1544 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		7F6127071E50BF1500ED1544 /* PlistHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlistHelper.swift; path = ruckus/PlistHelper.swift; sourceTree = "<group>"; };
+		7F76938C1EE2FE230036DED7 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		7F76939C1EE376490036DED7 /* CreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
+		7F76939E1EE37C950036DED7 /* CreditsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsCell.swift; sourceTree = "<group>"; };
+		7F7693A01EE37FF20036DED7 /* ButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		7F83E53A1E53AB530019A31F /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewController.swift; sourceTree = "<group>"; };
+		7F8619161E60CEDF005236C2 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ruckus/UIColorExtension.swift; sourceTree = "<group>"; };
+		7F8F6B231EAD46A300A2DD2B /* UnlockingInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnlockingInterfaceController.swift; sourceTree = "<group>"; };
+		7F95A9921E8FE4B80057D8AB /* ruckus.watch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ruckus.watch Extension.entitlements"; sourceTree = "<group>"; };
+		7F95A9931E8FEBCD0057D8AB /* NotificationKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationKeys.swift; path = ruckus/NotificationKeys.swift; sourceTree = "<group>"; };
+		7F95A9981E9016600057D8AB /* WatchNotificationBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WatchNotificationBridge.swift; path = ruckus/WatchNotificationBridge.swift; sourceTree = "<group>"; };
+		7F95A99C1E90202E0057D8AB /* AppNotificationBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppNotificationBridge.swift; path = "ruckus.watch Extension/AppNotificationBridge.swift"; sourceTree = "<group>"; };
+		7F981B971EC8F2CA003D01F2 /* FinishedInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishedInterfaceController.swift; sourceTree = "<group>"; };
+		7FA5CE571E80684000EF3248 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = ruckus/StringExtension.swift; sourceTree = "<group>"; };
+		7FAC98CA1E745F83003848DE /* DoubleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		7FB247FA1ED236E700267498 /* WorkoutSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = "<group>"; };
+		7FB247FC1ED2420700267498 /* WorkoutSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = "<group>"; };
+		7FB358001E4294EA00EF9BD2 /* ruckus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ruckus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB358031E4294EA00EF9BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FB3580A1E4294EA00EF9BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FB3580C1E4294EA00EF9BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FB3580F1E4294EA00EF9BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FB358111E4294EA00EF9BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB358161E4294EA00EF9BD2 /* ruckusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ruckusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB3581C1E4294EA00EF9BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB358211E4294EA00EF9BD2 /* ruckusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ruckusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB358271E4294EA00EF9BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FBC67A51E5B88D500FBEB3B /* DifficultyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultyCell.swift; sourceTree = "<group>"; };
+		7FC378A31EB2869A003DA72C /* SettingsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsInterfaceController.swift; sourceTree = "<group>"; };
+		7FC378A51EB288EF003DA72C /* PickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerController.swift; sourceTree = "<group>"; };
+		7FC575D71EED5D17006DAD3E /* Reachable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachable.swift; sourceTree = "<group>"; };
+		7FC575D91EEDDC57006DAD3E /* SelectCellTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCellTime.swift; sourceTree = "<group>"; };
+		7FC5AD361EAB7E8E00F3382A /* ControlsInterfaceControllerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsInterfaceControllerController.swift; sourceTree = "<group>"; };
+		7FC7C2A11E50FEED007579A0 /* ToggleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleCell.swift; sourceTree = "<group>"; };
+		7FC85F4F1ECF80CE0014F97C /* CurrentActivityHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrentActivityHelper.swift; path = ruckus/CurrentActivityHelper.swift; sourceTree = "<group>"; };
+		7FC9AAC51EDB1B6C002E2085 /* AdIdents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdIdents.swift; sourceTree = "<group>"; };
+		7FCA39E41E8AE8D500F53C61 /* WorkoutFinishedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutFinishedViewController.swift; sourceTree = "<group>"; };
+		7FCA39E61E8AEA8600F53C61 /* ruckus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ruckus.entitlements; sourceTree = "<group>"; };
+		7FCA39E71E8AEA8600F53C61 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		7FD12BBE1E8EE956003209EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Interface.strings; sourceTree = "<group>"; };
+		7FDDE35F1E54E9DD000E36F3 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefaultsHelper.swift; path = ruckus/UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		7FEDF1381EB773C000B63539 /* ToggleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleController.swift; sourceTree = "<group>"; };
+		9041E651361575E7FD10EE12 /* Pods_ruckus_watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ruckus_watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E60415D82A6ADBC8659339 /* Pods-ruckus.watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ruckus.watch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ruckus.watch Extension/Pods-ruckus.watch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		C4FCC1C1AE790D9D8F15D4EB /* Pods_ruckusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ruckusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD804E129FA256C5FEE817A0 /* Pods-ruckus.watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ruckus.watch Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ruckus.watch Extension/Pods-ruckus.watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		E039DED56B7B1A40D8C19A30 /* Pods_ruckus_watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ruckus_watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51F26484E862E54B387CD80 /* Pods-ruckus.watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ruckus.watch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ruckus.watch/Pods-ruckus.watch.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5201B25650C630CCB0F10D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61287E1192476E3E86E4C00A /* Pods_ruckus_watch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1BD8CB1E64CA8100C9B9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F30C63A1E8FE009004D90FB /* HealthKit.framework in Frameworks */,
+				8903653757D050A61DFB8258 /* Pods_ruckus_watch_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB357FD1E4294EA00EF9BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCA39E81E8AEA8600F53C61 /* HealthKit.framework in Frameworks */,
+				D878AC4CBB31D959F07FA576 /* Pods_ruckus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB358131E4294EA00EF9BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F1FDC63D07996C827882A4 /* Pods_ruckusTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB3581E1E4294EA00EF9BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032C708F021324B4614236DE /* Pods_ruckusUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59D1B0354C994B60CA97F4DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				597B809F841E7FEAAB863A9A /* Pods-ruckus.debug.xcconfig */,
+				162441CFF042648F83D60C5B /* Pods-ruckus.release.xcconfig */,
+				F51F26484E862E54B387CD80 /* Pods-ruckus.watch.debug.xcconfig */,
+				2F07BDEF3A75AB1B98815900 /* Pods-ruckus.watch.release.xcconfig */,
+				CD804E129FA256C5FEE817A0 /* Pods-ruckus.watch Extension.debug.xcconfig */,
+				A1E60415D82A6ADBC8659339 /* Pods-ruckus.watch Extension.release.xcconfig */,
+				341EC0AFE7179ED763894CCD /* Pods-ruckusTests.debug.xcconfig */,
+				78E14FC63C911EA2AD8AFC4D /* Pods-ruckusTests.release.xcconfig */,
+				003BC91500BC3340F2D85331 /* Pods-ruckusUITests.debug.xcconfig */,
+				6954B1FC44CD2BAF9EB720B9 /* Pods-ruckusUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F39644547C80A611D9B0977 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F30C6381E8FDFEE004D90FB /* HealthKit.framework */,
+				7FCA39E71E8AEA8600F53C61 /* HealthKit.framework */,
+				5C79FF37A56D8B1AE865D9A8 /* Pods_ruckus.framework */,
+				9041E651361575E7FD10EE12 /* Pods_ruckus_watch.framework */,
+				E039DED56B7B1A40D8C19A30 /* Pods_ruckus_watch_Extension.framework */,
+				542C055B021A21A38A4A854D /* Pods_ruckusTests.framework */,
+				C4FCC1C1AE790D9D8F15D4EB /* Pods_ruckusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F0F218E1EF702FB006AF4E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F2FFF7C1EF6ADC200CBAFAC /* SettingsModalTests.swift */,
+				7F0F218C1EF7007E006AF4E7 /* SportModelTests.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7F0F218F1EF7035B006AF4E7 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				7F0F21901EF70370006AF4E7 /* StringCollectionTests.swift */,
+			);
+			name = Collections;
+			sourceTree = "<group>";
+		};
+		7F0F21921EF70521006AF4E7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F0F21931EF70541006AF4E7 /* IntervalTimerTests.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7F1BD8C31E64CA8100C9B9A0 /* ruckus.watch */ = {
+			isa = PBXGroup;
+			children = (
+				7F1BD8C41E64CA8100C9B9A0 /* Interface.storyboard */,
+				7F1BD8C71E64CA8100C9B9A0 /* Assets.xcassets */,
+				7F1BD8C91E64CA8100C9B9A0 /* Info.plist */,
+			);
+			path = ruckus.watch;
+			sourceTree = "<group>";
+		};
+		7F1BD8D21E64CA8100C9B9A0 /* ruckus.watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7F320A981EABF006006089D1 /* InterfaceControllers */,
+				7F86A9DF1E92DE9900A20CE7 /* Controllers */,
+				7F95A9921E8FE4B80057D8AB /* ruckus.watch Extension.entitlements */,
+				7F30C6341E8FDA08004D90FB /* Utils */,
+				7F1BD8D71E64CA8100C9B9A0 /* ExtensionDelegate.swift */,
+				7F1BD8DB1E64CA8100C9B9A0 /* Assets.xcassets */,
+				7F1BD8DD1E64CA8100C9B9A0 /* Info.plist */,
+				7F1BD8D31E64CA8100C9B9A0 /* Supporting Files */,
+			);
+			path = "ruckus.watch Extension";
+			sourceTree = "<group>";
+		};
+		7F1BD8D31E64CA8100C9B9A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F1BD8D41E64CA8100C9B9A0 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F30C6341E8FDA08004D90FB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7F320A961EABEDD5006089D1 /* ControllerNames.swift */,
+				7F320A991EABF095006089D1 /* ControllerActions.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		7F320A981EABF006006089D1 /* InterfaceControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F1BD8D51E64CA8100C9B9A0 /* TimerController.swift */,
+				7F981B971EC8F2CA003D01F2 /* FinishedInterfaceController.swift */,
+				7FC5AD361EAB7E8E00F3382A /* ControlsInterfaceControllerController.swift */,
+				7F8F6B231EAD46A300A2DD2B /* UnlockingInterfaceController.swift */,
+				7FC378A31EB2869A003DA72C /* SettingsInterfaceController.swift */,
+			);
+			name = InterfaceControllers;
+			sourceTree = "<group>";
+		};
+		7F6126FA1E50A33C00ED1544 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F83E53A1E53AB530019A31F /* LoadingScreenViewController.swift */,
+				7F01E3241E56617E0093622A /* SettingsViewController.swift */,
+				7F5AE9C11E6F551F005B4290 /* TimerViewController.swift */,
+				7FCA39E41E8AE8D500F53C61 /* WorkoutFinishedViewController.swift */,
+				7F76939C1EE376490036DED7 /* CreditsViewController.swift */,
+				7F5B0A621EE4A22E00BA7358 /* GoProViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7F7427151E526AE400F25E4F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FC7C2A11E50FEED007579A0 /* ToggleCell.swift */,
+				7F04E2591E563D0F005D94C5 /* SelectCell.swift */,
+				7FBC67A51E5B88D500FBEB3B /* DifficultyCell.swift */,
+				7F3DC9151E5D5D7400AA6190 /* ScrollCell.swift */,
+				7FB247FC1ED2420700267498 /* WorkoutSession.swift */,
+				7F76939E1EE37C950036DED7 /* CreditsCell.swift */,
+				7F7693A01EE37FF20036DED7 /* ButtonCell.swift */,
+				7FC575D91EEDDC57006DAD3E /* SelectCellTime.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7F76938B1EE2FE0B0036DED7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7F76938C1EE2FE230036DED7 /* SoundPlayer.swift */,
+				7F5B0A641EE4B6D800BA7358 /* PurchasedState.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		7F76938E1EE3060C0036DED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F76938F1EE306D80036DED7 /* Sounds */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F76938F1EE306D80036DED7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7F4D9FDC1EE44D920049ADA8 /* pause.wav */,
+				7F4D9FDD1EE44D920049ADA8 /* notify.wav */,
+				7F4D9FDE1EE44D920049ADA8 /* finished.wav */,
+				7F4D9FDF1EE44D920049ADA8 /* start.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		7F8619151E60CE29005236C2 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				7FAC98CA1E745F83003848DE /* DoubleExtension.swift */,
+			);
+			name = Collections;
+			sourceTree = "<group>";
+		};
+		7F86A9DF1E92DE9900A20CE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FC378A51EB288EF003DA72C /* PickerController.swift */,
+				7FEDF1381EB773C000B63539 /* ToggleController.swift */,
+				7F27D2311EB7CC94007829C4 /* SliderController.swift */,
+				7FB247FA1ED236E700267498 /* WorkoutSession.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7FB247F01ED22F9D00267498 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7FB247F71ED2319600267498 /* Enums */,
+				7FB247F61ED2313800267498 /* WatchAppBridging */,
+				7FB247F41ED22FD800267498 /* Collections */,
+				7FB247F31ED22FBA00267498 /* Controllers */,
+				7FB247F21ED22FB200267498 /* Helpers */,
+				7FB247F11ED22FA900267498 /* Models */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		7FB247F11ED22FA900267498 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F2CBFA01ECA431C0075412A /* Sport.swift */,
+				7F6127001E50B9BF00ED1544 /* Settings.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7FB247F21ED22FB200267498 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7F30C6351E8FDA4D004D90FB /* WorkoutStoreHelper.swift */,
+				7F6127071E50BF1500ED1544 /* PlistHelper.swift */,
+				7FDDE35F1E54E9DD000E36F3 /* UserDefaultsHelper.swift */,
+				7F53A1CA1E90F1F80004C358 /* IntervalTimerSettingsHelper.swift */,
+				7FC85F4F1ECF80CE0014F97C /* CurrentActivityHelper.swift */,
+				7FC575D71EED5D17006DAD3E /* Reachable.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		7FB247F31ED22FBA00267498 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F19F1951E6E0CF100D5CFC3 /* IntervalTimer.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7FB247F41ED22FD800267498 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				7FA5CE571E80684000EF3248 /* StringExtension.swift */,
+				7F8619161E60CEDF005236C2 /* UIColorExtension.swift */,
+				7F340E961EF719AB00AE3DEB /* XCUIElement.swift */,
+			);
+			name = Collections;
+			sourceTree = "<group>";
+		};
+		7FB247F61ED2313800267498 /* WatchAppBridging */ = {
+			isa = PBXGroup;
+			children = (
+				7F95A99C1E90202E0057D8AB /* AppNotificationBridge.swift */,
+				7F95A9981E9016600057D8AB /* WatchNotificationBridge.swift */,
+			);
+			name = WatchAppBridging;
+			sourceTree = "<group>";
+		};
+		7FB247F71ED2319600267498 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				7F95A9931E8FEBCD0057D8AB /* NotificationKeys.swift */,
+				7FC9AAC51EDB1B6C002E2085 /* AdIdents.swift */,
+				7F4D9FDA1EE4434D0049ADA8 /* Flags.swift */,
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+		7FB357F71E4294EA00EF9BD2 = {
+			isa = PBXGroup;
+			children = (
+				7FB247F01ED22F9D00267498 /* Shared */,
+				7FB358021E4294EA00EF9BD2 /* ruckus */,
+				7FB358191E4294EA00EF9BD2 /* ruckusTests */,
+				7FB358241E4294EA00EF9BD2 /* ruckusUITests */,
+				7F1BD8C31E64CA8100C9B9A0 /* ruckus.watch */,
+				7F1BD8D21E64CA8100C9B9A0 /* ruckus.watch Extension */,
+				7FB358011E4294EA00EF9BD2 /* Products */,
+				5F39644547C80A611D9B0977 /* Frameworks */,
+				59D1B0354C994B60CA97F4DA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB358011E4294EA00EF9BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FB358001E4294EA00EF9BD2 /* ruckus.app */,
+				7FB358161E4294EA00EF9BD2 /* ruckusTests.xctest */,
+				7FB358211E4294EA00EF9BD2 /* ruckusUITests.xctest */,
+				7F1BD8C21E64CA8100C9B9A0 /* ruckus.watch.app */,
+				7F1BD8CE1E64CA8100C9B9A0 /* ruckus.watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FB358021E4294EA00EF9BD2 /* ruckus */ = {
+			isa = PBXGroup;
+			children = (
+				7F76938E1EE3060C0036DED7 /* Supporting Files */,
+				7F76938B1EE2FE0B0036DED7 /* Helpers */,
+				7FCA39E61E8AEA8600F53C61 /* ruckus.entitlements */,
+				7F8619151E60CE29005236C2 /* Collections */,
+				7F7427151E526AE400F25E4F /* Controllers */,
+				7F6126FA1E50A33C00ED1544 /* ViewControllers */,
+				7FB358031E4294EA00EF9BD2 /* AppDelegate.swift */,
+				7FB358091E4294EA00EF9BD2 /* Main.storyboard */,
+				7FB3580C1E4294EA00EF9BD2 /* Assets.xcassets */,
+				7FB3580E1E4294EA00EF9BD2 /* LaunchScreen.storyboard */,
+				7FB358111E4294EA00EF9BD2 /* Info.plist */,
+				7F6127051E50BB4800ED1544 /* Settings.plist */,
+			);
+			path = ruckus;
+			sourceTree = "<group>";
+		};
+		7FB358191E4294EA00EF9BD2 /* ruckusTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F0F21921EF70521006AF4E7 /* Controllers */,
+				7F0F218F1EF7035B006AF4E7 /* Collections */,
+				7F0F218E1EF702FB006AF4E7 /* Models */,
+				7FB3581C1E4294EA00EF9BD2 /* Info.plist */,
+			);
+			path = ruckusTests;
+			sourceTree = "<group>";
+		};
+		7FB358241E4294EA00EF9BD2 /* ruckusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FB358271E4294EA00EF9BD2 /* Info.plist */,
+				7F2FFF7E1EF6B5C000CBAFAC /* SettingsScreenUITests.swift */,
+			);
+			path = ruckusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F1BD8C11E64CA8100C9B9A0 /* ruckus.watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1BD8E71E64CA8100C9B9A0 /* Build configuration list for PBXNativeTarget "ruckus.watch" */;
+			buildPhases = (
+				F5C0E5A67C4092D7AB8DE7F9 /* [CP] Check Pods Manifest.lock */,
+				7F1BD8C01E64CA8100C9B9A0 /* Resources */,
+				7F1BD8E61E64CA8100C9B9A0 /* Embed App Extensions */,
+				5201B25650C630CCB0F10D50 /* Frameworks */,
+				1DC45DC1D369ADDC876C295B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F1BD8D11E64CA8100C9B9A0 /* PBXTargetDependency */,
+			);
+			name = ruckus.watch;
+			productName = ruckus.watch;
+			productReference = 7F1BD8C21E64CA8100C9B9A0 /* ruckus.watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7F1BD8CD1E64CA8100C9B9A0 /* ruckus.watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1BD8E51E64CA8100C9B9A0 /* Build configuration list for PBXNativeTarget "ruckus.watch Extension" */;
+			buildPhases = (
+				07AE88E207443F5D44EAC1DD /* [CP] Check Pods Manifest.lock */,
+				7F1BD8CA1E64CA8100C9B9A0 /* Sources */,
+				7F1BD8CB1E64CA8100C9B9A0 /* Frameworks */,
+				7F1BD8CC1E64CA8100C9B9A0 /* Resources */,
+				F6AAE7FF27CA6DDA657C0BE3 /* [CP] Embed Pods Frameworks */,
+				FC56DAFD42F3832A4D9E9B57 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ruckus.watch Extension";
+			productName = "ruckus.watch Extension";
+			productReference = 7F1BD8CE1E64CA8100C9B9A0 /* ruckus.watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		7FB357FF1E4294EA00EF9BD2 /* ruckus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB3582A1E4294EA00EF9BD2 /* Build configuration list for PBXNativeTarget "ruckus" */;
+			buildPhases = (
+				D9A8C7722D24F740ADFC1F10 /* [CP] Check Pods Manifest.lock */,
+				7FB357FC1E4294EA00EF9BD2 /* Sources */,
+				7FB357FD1E4294EA00EF9BD2 /* Frameworks */,
+				7FB357FE1E4294EA00EF9BD2 /* Resources */,
+				7F1BD8E81E64CA8100C9B9A0 /* Embed Watch Content */,
+				7F7222941EE896790062279E /* ShellScript */,
+				36134717BAF15E4181301D87 /* [CP] Embed Pods Frameworks */,
+				3027FBC359FA972907DAD803 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F1BD8DF1E64CA8100C9B9A0 /* PBXTargetDependency */,
+			);
+			name = ruckus;
+			productName = ruckus;
+			productReference = 7FB358001E4294EA00EF9BD2 /* ruckus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FB358151E4294EA00EF9BD2 /* ruckusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB3582D1E4294EA00EF9BD2 /* Build configuration list for PBXNativeTarget "ruckusTests" */;
+			buildPhases = (
+				A76CA435899CE82E376FC73C /* [CP] Check Pods Manifest.lock */,
+				7FB358121E4294EA00EF9BD2 /* Sources */,
+				7FB358131E4294EA00EF9BD2 /* Frameworks */,
+				7FB358141E4294EA00EF9BD2 /* Resources */,
+				B1E6AC39E04F01F61C606000 /* [CP] Embed Pods Frameworks */,
+				CE322E1BB50D660EAC102EB9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB358181E4294EA00EF9BD2 /* PBXTargetDependency */,
+			);
+			name = ruckusTests;
+			productName = ruckusTests;
+			productReference = 7FB358161E4294EA00EF9BD2 /* ruckusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FB358201E4294EA00EF9BD2 /* ruckusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB358301E4294EA00EF9BD2 /* Build configuration list for PBXNativeTarget "ruckusUITests" */;
+			buildPhases = (
+				C8D410B9B8E7BD680491C009 /* [CP] Check Pods Manifest.lock */,
+				7FB3581D1E4294EA00EF9BD2 /* Sources */,
+				7FB3581E1E4294EA00EF9BD2 /* Frameworks */,
+				7FB3581F1E4294EA00EF9BD2 /* Resources */,
+				2A9CE81DA97729EE42E2088E /* [CP] Embed Pods Frameworks */,
+				855E6AB4CB27379DD5FB60EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB358231E4294EA00EF9BD2 /* PBXTargetDependency */,
+			);
+			name = ruckusUITests;
+			productName = ruckusUITests;
+			productReference = 7FB358211E4294EA00EF9BD2 /* ruckusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FB357F81E4294EA00EF9BD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Gareth;
+				TargetAttributes = {
+					7F1BD8C11E64CA8100C9B9A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WMQYY9222D;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes.watchos.app = {
+								enabled = 1;
+							};
+						};
+					};
+					7F1BD8CD1E64CA8100C9B9A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WMQYY9222D;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes.watchos.extension = {
+								enabled = 1;
+							};
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+						};
+					};
+					7FB357FF1E4294EA00EF9BD2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WMQYY9222D;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					7FB358151E4294EA00EF9BD2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WMQYY9222D;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FB357FF1E4294EA00EF9BD2;
+					};
+					7FB358201E4294EA00EF9BD2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WMQYY9222D;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FB357FF1E4294EA00EF9BD2;
+					};
+				};
+			};
+			buildConfigurationList = 7FB357FB1E4294EA00EF9BD2 /* Build configuration list for PBXProject "ruckus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FB357F71E4294EA00EF9BD2;
+			productRefGroup = 7FB358011E4294EA00EF9BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FB357FF1E4294EA00EF9BD2 /* ruckus */,
+				7FB358151E4294EA00EF9BD2 /* ruckusTests */,
+				7FB358201E4294EA00EF9BD2 /* ruckusUITests */,
+				7F1BD8C11E64CA8100C9B9A0 /* ruckus.watch */,
+				7F1BD8CD1E64CA8100C9B9A0 /* ruckus.watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F1BD8C01E64CA8100C9B9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1BD8C81E64CA8100C9B9A0 /* Assets.xcassets in Resources */,
+				7F1BD8C61E64CA8100C9B9A0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1BD8CC1E64CA8100C9B9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1BD8DC1E64CA8100C9B9A0 /* Assets.xcassets in Resources */,
+				7F35D0321ECCED5A007EAE00 /* Assets.xcassets in Resources */,
+				7FEDF1371EB751E000B63539 /* Settings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB357FE1E4294EA00EF9BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB358101E4294EA00EF9BD2 /* LaunchScreen.storyboard in Resources */,
+				7F4D9FE31EE44D920049ADA8 /* start.wav in Resources */,
+				7F6127061E50BB4800ED1544 /* Settings.plist in Resources */,
+				7F4D9FE21EE44D920049ADA8 /* finished.wav in Resources */,
+				7FB3580D1E4294EA00EF9BD2 /* Assets.xcassets in Resources */,
+				7FB3580B1E4294EA00EF9BD2 /* Main.storyboard in Resources */,
+				7F4D9FE11EE44D920049ADA8 /* notify.wav in Resources */,
+				7FB247FE1ED24AB000267498 /* Assets.xcassets in Resources */,
+				7F4D9FE01EE44D920049ADA8 /* pause.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB358141E4294EA00EF9BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB3581F1E4294EA00EF9BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07AE88E207443F5D44EAC1DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1DC45DC1D369ADDC876C295B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ruckus.watch/Pods-ruckus.watch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A9CE81DA97729EE42E2088E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ruckusUITests/Pods-ruckusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3027FBC359FA972907DAD803 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ruckus/Pods-ruckus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36134717BAF15E4181301D87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ruckus/Pods-ruckus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F7222941EE896790062279E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 6b13eac7f88f7bb6278d825b94466bc5f2a61b51 b37e350fe7327521a54a25aae65a116d8a5c4a4ffd930979f9ab274f467cfd57";
+		};
+		855E6AB4CB27379DD5FB60EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ruckusUITests/Pods-ruckusUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A76CA435899CE82E376FC73C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1E6AC39E04F01F61C606000 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ruckusTests/Pods-ruckusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D410B9B8E7BD680491C009 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE322E1BB50D660EAC102EB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ruckusTests/Pods-ruckusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9A8C7722D24F740ADFC1F10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5C0E5A67C4092D7AB8DE7F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6AAE7FF27CA6DDA657C0BE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ruckus.watch Extension/Pods-ruckus.watch Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC56DAFD42F3832A4D9E9B57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ruckus.watch Extension/Pods-ruckus.watch Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F1BD8CA1E64CA8100C9B9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F95A99E1E9049A10057D8AB /* IntervalTimer.swift in Sources */,
+				7FC378A61EB288EF003DA72C /* PickerController.swift in Sources */,
+				7FB247FB1ED236E700267498 /* WorkoutSession.swift in Sources */,
+				7F95A9A11E9050C50057D8AB /* PlistHelper.swift in Sources */,
+				7FEDF1391EB773C000B63539 /* ToggleController.swift in Sources */,
+				7F95A99D1E90202E0057D8AB /* AppNotificationBridge.swift in Sources */,
+				7FC85F511ECF871B0014F97C /* CurrentActivityHelper.swift in Sources */,
+				7F95A99F1E904E450057D8AB /* UIColorExtension.swift in Sources */,
+				7FB247F51ED230F500267498 /* Settings.swift in Sources */,
+				7F5AB7361EB7D58100A1537B /* IntervalTimerSettingsHelper.swift in Sources */,
+				7F320A9A1EABF095006089D1 /* ControllerActions.swift in Sources */,
+				7FC378A41EB2869A003DA72C /* SettingsInterfaceController.swift in Sources */,
+				7F95A99A1E901D310057D8AB /* NotificationKeys.swift in Sources */,
+				7F30C6361E8FDA4D004D90FB /* WorkoutStoreHelper.swift in Sources */,
+				7F8F6B241EAD46A300A2DD2B /* UnlockingInterfaceController.swift in Sources */,
+				7F27D2321EB7CC94007829C4 /* SliderController.swift in Sources */,
+				7F2CBFA11ECA431C0075412A /* Sport.swift in Sources */,
+				7F95A9A21E9050C80057D8AB /* UserDefaultsHelper.swift in Sources */,
+				7F95A9A31E9050E00057D8AB /* StringExtension.swift in Sources */,
+				7F1BD8D81E64CA8100C9B9A0 /* ExtensionDelegate.swift in Sources */,
+				7F1BD8D61E64CA8100C9B9A0 /* TimerController.swift in Sources */,
+				7F320A971EABEDD5006089D1 /* ControllerNames.swift in Sources */,
+				7FC5AD371EAB7E8E00F3382A /* ControlsInterfaceControllerController.swift in Sources */,
+				7F981B981EC8F2CA003D01F2 /* FinishedInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB357FC1E4294EA00EF9BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F76938D1EE2FE230036DED7 /* SoundPlayer.swift in Sources */,
+				7F5AE9C21E6F551F005B4290 /* TimerViewController.swift in Sources */,
+				7F76939F1EE37C950036DED7 /* CreditsCell.swift in Sources */,
+				7FDDE3601E54E9DD000E36F3 /* UserDefaultsHelper.swift in Sources */,
+				7FCA39E51E8AE8D500F53C61 /* WorkoutFinishedViewController.swift in Sources */,
+				7F8619171E60CEDF005236C2 /* UIColorExtension.swift in Sources */,
+				7F6127011E50B9BF00ED1544 /* Settings.swift in Sources */,
+				7F19F1961E6E0CF100D5CFC3 /* IntervalTimer.swift in Sources */,
+				7F4D9FE61EE45FC20049ADA8 /* WorkoutStoreHelper.swift in Sources */,
+				7F95A9991E9016600057D8AB /* WatchNotificationBridge.swift in Sources */,
+				7FC85F4E1ECF80150014F97C /* Sport.swift in Sources */,
+				7FB358041E4294EA00EF9BD2 /* AppDelegate.swift in Sources */,
+				7F5B0A631EE4A22E00BA7358 /* GoProViewController.swift in Sources */,
+				7FC85F501ECF80CE0014F97C /* CurrentActivityHelper.swift in Sources */,
+				7F83E53B1E53AB530019A31F /* LoadingScreenViewController.swift in Sources */,
+				7F76939D1EE376490036DED7 /* CreditsViewController.swift in Sources */,
+				7F53A1CB1E90F1F80004C358 /* IntervalTimerSettingsHelper.swift in Sources */,
+				7FC575D81EED5D17006DAD3E /* Reachable.swift in Sources */,
+				7FB247FD1ED2420700267498 /* WorkoutSession.swift in Sources */,
+				7FA5CE581E80684000EF3248 /* StringExtension.swift in Sources */,
+				7F4D9FDB1EE4434D0049ADA8 /* Flags.swift in Sources */,
+				7FAC98CB1E745F83003848DE /* DoubleExtension.swift in Sources */,
+				7FC7C2A21E50FEED007579A0 /* ToggleCell.swift in Sources */,
+				7F04E25A1E563D0F005D94C5 /* SelectCell.swift in Sources */,
+				7F5B0A651EE4B6D800BA7358 /* PurchasedState.swift in Sources */,
+				7FC575DA1EEDDC57006DAD3E /* SelectCellTime.swift in Sources */,
+				7F6127081E50BF1500ED1544 /* PlistHelper.swift in Sources */,
+				7F95A9941E8FEBCD0057D8AB /* NotificationKeys.swift in Sources */,
+				7FBC67A61E5B88D500FBEB3B /* DifficultyCell.swift in Sources */,
+				7FC9AAC61EDB1B6C002E2085 /* AdIdents.swift in Sources */,
+				7F01E3251E56617E0093622A /* SettingsViewController.swift in Sources */,
+				7F3DC9161E5D5D7400AA6190 /* ScrollCell.swift in Sources */,
+				7F7693A11EE37FF20036DED7 /* ButtonCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB358121E4294EA00EF9BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0F21941EF70541006AF4E7 /* IntervalTimerTests.swift in Sources */,
+				7F2FFF7D1EF6ADC200CBAFAC /* SettingsModalTests.swift in Sources */,
+				7F0F218D1EF7007E006AF4E7 /* SportModelTests.swift in Sources */,
+				7F0F21911EF70370006AF4E7 /* StringCollectionTests.swift in Sources */,
+				7F13D2B31EFFA9A70095A92D /* Flags.swift in Sources */,
+				7F917ACF1F04487600120FC2 /* PurchasedState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB3581D1E4294EA00EF9BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F73C62F1EFC7787003423E9 /* UserDefaultsHelper.swift in Sources */,
+				7F73C6301EFC779C003423E9 /* StringExtension.swift in Sources */,
+				7F73C62C1EFC76D4003423E9 /* Settings.swift in Sources */,
+				7F2FFF7F1EF6B5C000CBAFAC /* SettingsScreenUITests.swift in Sources */,
+				7F73C62E1EFC7785003423E9 /* PlistHelper.swift in Sources */,
+				7F73C62D1EFC7711003423E9 /* Sport.swift in Sources */,
+				7F340E981EF719B000AE3DEB /* XCUIElement.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F1BD8D11E64CA8100C9B9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F1BD8CD1E64CA8100C9B9A0 /* ruckus.watch Extension */;
+			targetProxy = 7F1BD8D01E64CA8100C9B9A0 /* PBXContainerItemProxy */;
+		};
+		7F1BD8DF1E64CA8100C9B9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F1BD8C11E64CA8100C9B9A0 /* ruckus.watch */;
+			targetProxy = 7F1BD8DE1E64CA8100C9B9A0 /* PBXContainerItemProxy */;
+		};
+		7FB358181E4294EA00EF9BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB357FF1E4294EA00EF9BD2 /* ruckus */;
+			targetProxy = 7FB358171E4294EA00EF9BD2 /* PBXContainerItemProxy */;
+		};
+		7FB358231E4294EA00EF9BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB357FF1E4294EA00EF9BD2 /* ruckus */;
+			targetProxy = 7FB358221E4294EA00EF9BD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F1BD8C41E64CA8100C9B9A0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1BD8C51E64CA8100C9B9A0 /* Base */,
+				7FD12BBE1E8EE956003209EB /* en */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		7FB358091E4294EA00EF9BD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FB3580A1E4294EA00EF9BD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FB3580E1E4294EA00EF9BD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FB3580F1E4294EA00EF9BD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F1BD8E11E64CA8100C9B9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51F26484E862E54B387CD80 /* Pods-ruckus.watch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WMQYY9222D;
+				IBSC_MODULE = ruckus_watch_Extension;
+				INFOPLIST_FILE = ruckus.watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = garethfuller.intervaltimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		7F1BD8E21E64CA8100C9B9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F07BDEF3A75AB1B98815900 /* Pods-ruckus.watch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WMQYY9222D;
+				IBSC_MODULE = ruckus_watch_Extension;
+				INFOPLIST_FILE = ruckus.watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = garethfuller.intervaltimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		7F1BD8E31E64CA8100C9B9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD804E129FA256C5FEE817A0 /* Pods-ruckus.watch Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "ruckus.watch Extension/ruckus.watch Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WMQYY9222D;
+				INFOPLIST_FILE = "ruckus.watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garethfuller.intervaltimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		7F1BD8E41E64CA8100C9B9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E60415D82A6ADBC8659339 /* Pods-ruckus.watch Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "ruckus.watch Extension/ruckus.watch Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WMQYY9222D;
+				INFOPLIST_FILE = "ruckus.watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garethfuller.intervaltimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		7FB358281E4294EA00EF9BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FB358291E4294EA00EF9BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FB3582B1E4294EA00EF9BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 597B809F841E7FEAAB863A9A /* Pods-ruckus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ruckus/ruckus.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WMQYY9222D;
+				INFOPLIST_FILE = ruckus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garethfuller.intervaltimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7FB3582C1E4294EA00EF9BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162441CFF042648F83D60C5B /* Pods-ruckus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ruckus/ruckus.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WMQYY9222D;
+				INFOPLIST_FILE = ruckus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garethfuller.intervaltimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7FB3582E1E4294EA00EF9BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 341EC0AFE7179ED763894CCD /* Pods-ruckusTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WMQYY9222D;
+				INFOPLIST_FILE = ruckusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gareth.fuller.ruckusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ruckus.app/ruckus";
+			};
+			name = Debug;
+		};
+		7FB3582F1E4294EA00EF9BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E14FC63C911EA2AD8AFC4D /* Pods-ruckusTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WMQYY9222D;
+				INFOPLIST_FILE = ruckusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gareth.fuller.ruckusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ruckus.app/ruckus";
+			};
+			name = Release;
+		};
+		7FB358311E4294EA00EF9BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 003BC91500BC3340F2D85331 /* Pods-ruckusUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WMQYY9222D;
+				INFOPLIST_FILE = ruckusUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gareth.fuller.ruckusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ruckus;
+			};
+			name = Debug;
+		};
+		7FB358321E4294EA00EF9BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6954B1FC44CD2BAF9EB720B9 /* Pods-ruckusUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WMQYY9222D;
+				INFOPLIST_FILE = ruckusUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gareth.fuller.ruckusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ruckus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F1BD8E51E64CA8100C9B9A0 /* Build configuration list for PBXNativeTarget "ruckus.watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1BD8E31E64CA8100C9B9A0 /* Debug */,
+				7F1BD8E41E64CA8100C9B9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1BD8E71E64CA8100C9B9A0 /* Build configuration list for PBXNativeTarget "ruckus.watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1BD8E11E64CA8100C9B9A0 /* Debug */,
+				7F1BD8E21E64CA8100C9B9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB357FB1E4294EA00EF9BD2 /* Build configuration list for PBXProject "ruckus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB358281E4294EA00EF9BD2 /* Debug */,
+				7FB358291E4294EA00EF9BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB3582A1E4294EA00EF9BD2 /* Build configuration list for PBXNativeTarget "ruckus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB3582B1E4294EA00EF9BD2 /* Debug */,
+				7FB3582C1E4294EA00EF9BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB3582D1E4294EA00EF9BD2 /* Build configuration list for PBXNativeTarget "ruckusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB3582E1E4294EA00EF9BD2 /* Debug */,
+				7FB3582F1E4294EA00EF9BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB358301E4294EA00EF9BD2 /* Build configuration list for PBXNativeTarget "ruckusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB358311E4294EA00EF9BD2 /* Debug */,
+				7FB358321E4294EA00EF9BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FB357F81E4294EA00EF9BD2 /* Project object */;
+}

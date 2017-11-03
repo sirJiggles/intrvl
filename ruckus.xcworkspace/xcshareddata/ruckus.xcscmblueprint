@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E1BA9633437496CB6B748F5F1262F190F3049685",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CB9D5B13CD57EA026834C8CB60E40EA842708DFB" : 9223372036854775807,
+    "E1BA9633437496CB6B748F5F1262F190F3049685" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FF74BF2B-818D-4DA9-BEFD-E2340163430C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CB9D5B13CD57EA026834C8CB60E40EA842708DFB" : "fight-trainer\/",
+    "E1BA9633437496CB6B748F5F1262F190F3049685" : "ruckusnative\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ruckus",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ruckus.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/garethFuller\/fight-trainer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB9D5B13CD57EA026834C8CB60E40EA842708DFB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/garethFuller\/ruckusnative.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E1BA9633437496CB6B748F5F1262F190F3049685"
+    }
+  ]
+}
